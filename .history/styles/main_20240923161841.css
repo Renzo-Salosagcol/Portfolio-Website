@@ -82,10 +82,7 @@ main {
 }
 
 .showcase {
-  background-image:url("projects-photos/under_construction.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-image: -webkit-image-set();
 }
 
 .experience {

@@ -25,14 +25,13 @@ nav > * {
 }
 
 nav ~ * {
-  text-align: center;
+  text-align: center;;
 }
 
 main {
   background-color: lightgreen;
   text-align: center;
   display: grid;
-  padding-top: 5%;
 }
 
 .about {
@@ -52,40 +51,15 @@ main {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-@media(max-width: 500px) {
-  .information-container {
-      grid-template-columns: 1fr;
-  }
-}
-
-@media (min-width: 501px) and (max-width: 750px) {
-  .information-container {
-      grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media(min-width: 751px) {
-  .information-container {
-      grid-template-columns: 1fr 1fr 1fr;
-  }
-}
-
 .information-container > * {
-  margin: auto;
-  width: 95%;
-  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 75% 35%;
   border: 2px black solid;
 }
 
 .projects {
   background-color: lightgoldenrodyellow;
-}
-
-.showcase {
-  background-image:url("projects-photos/under_construction.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 
 .experience {

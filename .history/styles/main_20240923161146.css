@@ -25,7 +25,7 @@ nav > * {
 }
 
 nav ~ * {
-  text-align: center;
+  text-align: center;;
 }
 
 main {
@@ -71,21 +71,14 @@ main {
 }
 
 .information-container > * {
-  margin: auto;
+  margin-right: auto;
+  margin-left: auto;
   width: 95%;
-  height: 100%;
   border: 2px black solid;
 }
 
 .projects {
   background-color: lightgoldenrodyellow;
-}
-
-.showcase {
-  background-image:url("projects-photos/under_construction.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 
 .experience {

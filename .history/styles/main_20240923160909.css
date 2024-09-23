@@ -25,7 +25,7 @@ nav > * {
 }
 
 nav ~ * {
-  text-align: center;
+  text-align: center;;
 }
 
 main {
@@ -52,40 +52,33 @@ main {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-@media(max-width: 500px) {
+@media(max-width: 750px) {
   .information-container {
       grid-template-columns: 1fr;
   }
 }
 
-@media (min-width: 501px) and (max-width: 750px) {
+@media (min-width: 751px) and (max-width: 999px) {
   .information-container {
       grid-template-columns: 1fr 1fr;
   }
 }
 
-@media(min-width: 751px) {
+@media(min-width: 1000px) {
   .information-container {
       grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
 .information-container > * {
-  margin: auto;
-  width: 95%;
-  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 75% 35%;
   border: 2px black solid;
 }
 
 .projects {
   background-color: lightgoldenrodyellow;
-}
-
-.showcase {
-  background-image:url("projects-photos/under_construction.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 
 .experience {
