@@ -1,0 +1,25 @@
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "../components/ui/accordion"
+
+
+const About = () => {
+  return (
+    <div className="flex flex-col items-center justify-center bg-blue-500 p-10">
+      <h1 className="text-5xl font-bold p-5">About</h1>
+      <Accordion type="single" collapsible>
+        <AccordionItem value="item-1">
+          <AccordionTrigger>Personal</AccordionTrigger>
+          <AccordionContent>
+            Personal Text
+          </AccordionContent>
+        </AccordionItem>
+      </Accordion>
+    </div>
+  );
+}
+
+export default About;
