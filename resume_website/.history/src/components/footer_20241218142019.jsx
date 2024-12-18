@@ -20,7 +20,7 @@ const Footer = () => {
           <NavigationMenuList className="flex">
             <NavigationMenuItem className="flex-1 px-2">
               <NavigationMenuLink className="hover:underline">
-                <a className='flex items-center mx-2' href="https://www.facebook.com/renzo.salosagcol" target='blank'>
+                <a className='flex items-center mx-2' href="https://www.linkedin.com/in/renzo-salosagcol" target='blank'>
                   <FaFacebook />
                   <div className='ml-2'>Facebook</div>
                 </a>
@@ -28,7 +28,7 @@ const Footer = () => {
             </NavigationMenuItem>
             <NavigationMenuItem className="flex-1 px-2">
               <NavigationMenuLink className="hover:underline">
-                <a className='flex items-center mx-2' href="https://www.instagram.com/renzosalosagcol" target='blank'>
+                <a className='flex items-center mx-2' href="https://www.linkedin.com/in/renzo-salosagcol" target='blank'>
                   <FaInstagram />
                   <div className='ml-2'>Instagram</div>
                 </a>

@@ -14,7 +14,7 @@ import { navigationMenuTriggerStyle } from "../components/ui/navigation-menu";
 
 const Nav = () => {
   return (
-    <nav className="flex items-center bg-black w-full justify-between h-10 p-10 top-0">
+    <nav className="flex fixed items-center bg-black w-full justify-between h-10 p-10 top-0">
       <div className="mx-5 flex-shrink-0">
         <img className="w-20 h-15" src={logoImage} alt="logo" />
       </div>

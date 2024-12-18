@@ -9,7 +9,7 @@ import {
 
 const Projects = () => {
   return (
-    <div id="projects" className="p-5 py-20">
+    <div id="projects" className="p-5">
       <h1 className="text-3xl font-bold p-10">Projects</h1>
       <div className="flex flex-col space-y-4">
         <Card className="w-full">

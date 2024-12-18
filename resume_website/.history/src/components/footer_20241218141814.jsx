@@ -19,16 +19,16 @@ const Footer = () => {
         <NavigationMenu className="font-sans w-max">
           <NavigationMenuList className="flex">
             <NavigationMenuItem className="flex-1 px-2">
-              <NavigationMenuLink className="hover:underline">
-                <a className='flex items-center mx-2' href="https://www.facebook.com/renzo.salosagcol" target='blank'>
+              <NavigationMenuLink href="#home" className="hover:underline">
+                <a className='flex items-center mx-2' href=''>
                   <FaFacebook />
                   <div className='ml-2'>Facebook</div>
                 </a>
               </NavigationMenuLink>
             </NavigationMenuItem>
             <NavigationMenuItem className="flex-1 px-2">
-              <NavigationMenuLink className="hover:underline">
-                <a className='flex items-center mx-2' href="https://www.instagram.com/renzosalosagcol" target='blank'>
+              <NavigationMenuLink href="" className="hover:underline">
+                <a className='flex items-center mx-2' href="">
                   <FaInstagram />
                   <div className='ml-2'>Instagram</div>
                 </a>
@@ -36,7 +36,7 @@ const Footer = () => {
             </NavigationMenuItem>
             <NavigationMenuItem className="flex-1 px-2">
               <NavigationMenuLink href="#projects" className="hover:underline">
-                <a className='flex items-center mx-2' href="https://www.linkedin.com/in/renzo-salosagcol" target='blank'>
+                <a className='flex items-center mx-2'>
                   <FaTwitter />
                   <div className='ml-2'>Twitter</div>
                 </a>
@@ -44,10 +44,10 @@ const Footer = () => {
             </NavigationMenuItem>
             <NavigationMenuItem className="flex-1 px-2">
               <NavigationMenuLink href="https://www.linkedin.com/in/renzo-salosagcol" className="hover:underline">
-                <a className='flex items-center mx-2' href="https://www.linkedin.com/in/renzo-salosagcol" target='blank'>
+                <div className='flex items-center mx-2'>
                   <FaLinkedin />
                   <div className='ml-2'>LinkedIn</div>
-                </a>
+                </div>
               </NavigationMenuLink>
             </NavigationMenuItem>
           </NavigationMenuList>

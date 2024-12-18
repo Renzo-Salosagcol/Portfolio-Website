@@ -1,4 +1,4 @@
-import logoImage from "../assets/InitialPortfolioLogo.png";
+import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin} from 'react-icons/fa';
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -9,15 +9,11 @@ import {
   NavigationMenuTrigger,
   NavigationMenuViewport,
 } from "../components/ui/navigation-menu";
-import { navigationMenuTriggerStyle } from "../components/ui/navigation-menu";
 
-
-const Nav = () => {
+const Footer = () => {
   return (
-    <nav className="flex items-center bg-black w-full justify-between h-10 p-10 top-0">
-      <div className="mx-5 flex-shrink-0">
-        <img className="w-20 h-15" src={logoImage} alt="logo" />
-      </div>
+    <footer id="contact" className="bg-black text-white p-10 flex items-center">
+      <p className='flex-shrink-0'>© 2024 Resume Website</p>
       <div className="flex-1 flex justify-end text-white">
         <NavigationMenu className="font-sans w-max">
           <NavigationMenuList className="flex">
@@ -36,8 +32,8 @@ const Nav = () => {
           </NavigationMenuList>
         </NavigationMenu>
       </div>
-    </nav>
+    </footer>
   );
 }
 
-export default Nav;
+export default Footer;
