@@ -36,9 +36,9 @@ const Footer = () => {
             </NavigationMenuItem>
             <NavigationMenuItem className="flex-1 px-2">
               <NavigationMenuLink href="#projects" className="hover:underline">
-                <a className='flex items-center mx-2' href="https://github.com/Renzo-Salosagcol" target='blank'>
-                  <FaGithub />
-                  <div className='ml-2'>Github</div>
+                <a className='flex items-center mx-2' href="https://www.linkedin.com/in/renzo-salosagcol" target='blank'>
+                  <FaTwitter />
+                  <div className='ml-2'>Twitter</div>
                 </a>
               </NavigationMenuLink>
             </NavigationMenuItem>
